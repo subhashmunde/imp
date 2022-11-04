@@ -1,0 +1,436 @@
+============================== DBT ==============================
+Q. Which of the following statement is INCORRECT about database approach ? 
+a. It seperate the logical view of data from the physical view
+b. It gives scope to reduce the amount of data redundancy in an organization
+c. The data is viewed as an organizational resource that should be managed by the organization rather than by individual department
+d. The defination of database structure and constraints is stored i application program
+Answer:- 
+
+Q. A relation is in this form if it is in BCNF and has no transitive dependencies
+a. second normal form
+b. third normal form
+c. fourth normal form
+d. domain/key normal form
+Answer:- 
+
+Q. Which of the following is an extension fo relational databasse model
+a. Hierarchical database
+b. Multidimensional database
+c. Network database
+d. Object oriented database
+Answer:- 
+
+
+Q. Denormalization is a means of addressing__________ and _________
+a. Perfomance, scalability
+b. Authentication, Authorization
+c. Modifiability Testability
+d. None
+Answer:- 
+
+
+Q. To delete a particular column in a relation, the comand used is
+a. UPDATE
+b. DROP
+c. ALTER
+d. DELETE
+Answer:- 
+
+
+Q. The full form of DLL is
+a. Dynamic Data Language
+b. Detailed Data Language
+c. Data Derivation Language
+d. Data Defination Language
+Answer:- 
+
+
+Q. A SQL select statement containing the ROWNUM pseudocloumn, an ORDER BY clause, and a subquery was created. What construct was created ?
+a. A Complex View
+b. A Top-n Query
+c. A Materialized View
+d. A Hierarchical Report
+Answer:- 
+
+
+Q. You can create trigger on schema-level operation such as:
+a. Drop
+b. Rename
+c. Truncate
+d. All of them
+Answer:- 
+
+
+Q. Which of the following is not correct about User_Defined Exception ?
+a. Must be declared
+b. Must be raised explicitly
+c. Raised automatically in response to an Oracle error
+d. None os these
+Answer:- 
+
+
+Q. Which of the following is true ?
+a. An exception is a named error condition in a PL/SQL program.
+b. PL/SQL program can define it's own exceptions
+c. Exception handlers are program blocks that Handle error conditions
+d. All of these
+Answer:- 
+
+
+Q. Which of the following events will cause an automatic rollback ?
+a. REVOKE command
+b. Exiting from SQL*PLUS without issuing COMMIT command
+c. System crash
+d. Truncate command
+Answer:- 
+
+
+Q. The _________ step actually executes the SELECT query associated with an explicit cursor
+a. Declare
+b. Open
+c. Fetch
+d. Close
+Answer:- 
+
+
+Q. Actual value for parameterized cursor have to be passed at the time of _________ the cursor
+a. Declaring
+b. Opening
+c. Fetching (values from cursor)
+d. Closing
+Answer:- 
+
+
+Q. How do you create a new collection in MongoDB ?
+a. db.employee.save((name="cdac"))
+b. db.employee.update(("name=cdac"))
+c. db.employee.insert(("name=cdac"))
+d. db.employee.insert("name=cdac")
+Answer:- 
+
+
+Q. How to create an index for a collection
+a. db.employee.createIndex{{teacher:1}}
+b. db.employee.ensureIndex{{teacher:1}}
+c. db.employee.createIndex{teacher:1}
+d. db.employee.index{teacher:1}
+Answer:- 
+
+
+Q. To suppress the duplication values, you can use the keyword _______
+a. Distinct
+b. Unique
+c. Either of these
+d. None of these
+Answer:- 
+
+
+Q. The SQL query to retrive current time in Oracle is 
+a. select SysTim from dual
+b. select SysDate from dual
+c. select TO_CHAR(SysDate, 'HH:MI:SS') from dual;
+d. select TO_CHAR(SysDate, 'HH:MM:SS') from dual;
+Answer:- 
+
+
+Q. Which access method has almost no wasted space, is excellent for full-table scan, but is poor for individual row retrievals? 
+a. ISAM
+b. Hashing
+c. Heap
+d. B-Tree
+Answer:- 
+
+
+Q. You are developing PL/SQL process flow into your program. The command used to open a cursor for loop is which of the following keyword ?
+a. Open
+b. Fetch
+c. None
+d. Parse
+Answer:- 
+
+
+Q. Which of the following database supports ACID properties despite being NoSql database
+a. Redis
+b. MongoDB
+c. Hbase
+d. Neo4j
+Answer:- 
+
+
+Q. NoSql database are generally installed in
+a. Cluster
+b. Single machine
+c. Handheld devices
+d. None
+Answer:- 
+
+
+Q. What is the type of Oracle backup in which all uncommitted changes have been removed from the data files
+a. Full backup
+b. Consistent backup
+c. Inconsistent
+d. Differential backup
+Answer:- 
+
+
+Q. Which is an SQL*PLUS command
+a. Insert
+b. Update
+c. Describe
+d. Rename
+Answer:- 
+
+
+Q. What is the purpose of index in Oracle
+a. It leads to enhance the query perfomance
+b. It leads to provide an index to a record
+c. It leads to perfom fast searches
+d. All of these
+Answer:- 
+
+
+Q. A cluster is a schema object that contains data from _______ all of which have one or more columns in common.
+a. one table
+b. one or more tables
+c. two or more tables
+d. at least two tables
+Answer:- 
+
+
+Q. Which of the following returns the Oracle error number?
+a. TOO_MANY_ROWS
+b. WHEN OTHERS
+c. SQLERRM
+d. SQLCODE
+Answer:- 
+
+
+Q. Instead of hard coding the data type and size of a variable, you can use the 
+_______ attribute to declared variable or a column ofa table
+a. Variable
+b. %type
+c. %rowtype
+d. Default
+Answer:- 
+
+
+Q. DESCRIBE is an a(n) _______ command
+a. SQL
+b. SQL*PLUS
+c. PL*SQL
+d. Forms 6i
+Answer:- 
+
+
+Q. In Oracle 9i, the upper limit for nested function is up to _______ levels.
+a. 0
+b. 32
+c. 64
+d. 255
+Answer:- 
+
+
+Q. Implicit cursors created by Oracle can be used for 
+a. Insert command
+b. Update command
+c. Select command which return one row
+d. All of these
+Answer:- 
+
+
+Q. Which statement cannot be used in trigger
+a. SELECT statement
+b. ROLLBACK statement
+c. UPADTE statement
+d. INSERT statement
+Answer:- 
+
+
+Q. Which among the following need be unique in any realtion?
+Each tuple of the relation
+	i. Attribute values of primary key of the relation
+   ii. Attribute values of foreign key of the relation
+a. Only ii
+b. Both i & ii
+c. All i, ii & iii
+d. None of these need to be unique
+Answer:- 
+
+
+Q. A domain is atomic of the domain are considered to be _______ units
+a. Different
+b. Inseparable
+c. Static
+d. Divisible
+Answer:- 
+
+
+Q. A relation R is said to be in 2NF if it is in 1NF and there should not be any _______
+a. Partial dependency
+b. Typically dependency
+c. Logical dependency
+d. All of them mentioned
+Answer:- 
+
+
+Q. Which of the following makes the transaction permanent in the database?
+a. View
+b. Commit
+c. Rollback
+d. Flashback
+Answer:- 
+
+
+Q. The SQL WHERE clause:
+a. Limits the column data that are returned
+b. Limits the row data that are returned
+c. Neither A nor B are correct
+d. Both A and B are correct
+Answer:- 
+
+
+Q. _______ is preferred method for enforcing data integrity 
+a. Constraints
+b. Stored Procedure
+c. Tiggers
+d. Cursors
+Answer:- 
+
+
+Q. Consider the relation and query given below
+EMP(employee_name, employee_code, employee_desig)
+select COUNT (*) from EMP
+where employee_desig = 'Manager'
+and employee_code like 'JP%'
+Ths query
+a. Gives the number of managers whose employee code starts with strings 'JP' or 'jp'
+b. Gives the number of managers whose employee code contains the string 'JP' or 'jp'
+c. Gives the number of managers whose employee code starts with 'JP'
+d. Generates error since GROUP BY clause is not used with the aggregate function COUNT
+Answer:- 
+
+
+Q. To create a table in another user's schema, you must have the _______ system privilege
+a. create table
+b. create all table
+c. create any table
+d. none of these
+Answer:- 
+
+
+Q. Aggregate function can appear
+a. in the SELECT-LIST(the item before the FROM clause).
+b. in the ORDER BY clause
+c. in the HAVING clause
+d. All of these'
+Answer:- 
+
+
+Q. Correlated sub-query cannot be used in
+a. In the WHERE clause of an UPDATE statement
+b. In the WHERE clause of an DELETE statement
+c. In any Procedure or Function
+d. In the values list of an insert statement
+Answer:- 
+
+
+Q. What is true about the view
+a. You cannot specify DEFAULT when inserting into view
+b. You cannot specify WHERE clause when SELECT contains from view
+c. You cannot use AGGREGATE function to create the view
+d. You cannot specify GROUP BY clause to create the view
+Answer:- 
+
+
+Q. Which two files are used during operation of the DBMS
+a. Query language and utilities
+b. DML and query language
+c. Data dictonary and transaction log
+d. Data dictonary and query language
+Answer:- 
+
+
+Q. Which of the following is/are the DDL statements?
+a. create
+b. drop
+c. alter
+d. all of these
+Answer:- 
+
+
+Q. Which of the following ia a valid set relational algebra operation
+a. SELECT, PROJECT, LEFT OUTER JOIN, DIVISION
+b. PROJECT, NATURAL JOIN, DIFFERENCE, EXCEPT
+c. SELECT, UNION, DIVISION, DISTINCT
+d. CROSS PRODUCT, NATURAL JOIN, UNION, DIVISION
+Answer:- 
+
+
+Q. A self-join is
+a. A SELECT statement that specifies one table once in the FROM clause
+b. A SELECT statement that specifies one table twice in the FORM clause
+c. Selects all row from tables as long as there is a match between the column in table
+d. A SELECT statement that uses SELF JOIN keywords
+Answer:- 
+
+
+Q. What are the different events in Triggers
+a. Define, Create
+b. Drop, Comment
+c. Insert, Upadte, Delete
+d. Select, Comment
+Answer:- 
+
+
+Q. The SQL statement SELECT SUBSTR'(123456789', INSTR('abcabcabc', 'b'), 4)
+a. 6789
+b. 2345
+c. 1234
+d. 456789
+Answer:- 
+
+
+Q. Which of the following SQL command can be used to modify existing data in a database table
+a. MODIFY
+b. UPDATE
+c. CHANGE
+d. NEW
+Answer:- 
+
+
+Q. Valuate the following PL/SQL block
+	DECLARE
+	Result BOOLEAN
+	BEGIN
+	DELETE FROM EMP WHERE deptno IN(10,40,50);
+	Result := SQL%ISOPEN
+	END;
+what will be the value of RESULT WHERE deptno IN(10,40,50);
+a. 0
+b. 3
+c. true
+d. false
+Answer:- 
+
+Q. PL/SQL is what type of language
+a. Object oriented language
+b. Block structured
+c. Non structured
+d. Procedure oriented
+Answer:- 
+
+
+Q.Which one of the following is a cursor attributes
+a. %type
+b. %too_many_rows
+c. %rowcount
+d. %rowtype
+Answer:- 
+
+
+Q. The _______ is essentially used to search for patterns in target string
+a. Like Predicate
+b. Null Predicate
+c. In Predicate
+d. Out Predicate
+Answer:- 

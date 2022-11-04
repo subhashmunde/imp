@@ -1,0 +1,892 @@
+1. Which one of the following cannot be made as virtual?
+A. Destructor
+B. Member function
+C. Constructor
+D. None
+Answer:  A
+
+2. What is the functionality of seekp function?
+A. return current location of read marker
+B. move read marker to given position
+C. return current location of write marker
+D. move write marker to given position
+Answer:D 
+
+3. If Z is the name of the class, what is the correct way to declare copy constructor of Z?
+A. Z(Z arg)
+B. Z(Z* arg)
+C. Z(const Z* arg)
+D. Z(const Z& arg)
+Answer: D 
+
+4. How "Late Binding" is implemented in c++?
+A. Using C++ tables
+B. Using virtual tables
+C. Using indexed virtual tables
+D. Using polymorphic tables
+Answer: B 
+
+5. Assume a class TEST, Which of the following invoke copy constructor?
+A. TEST T2(T1)
+B. TEST T4=T1
+C. T2=T1
+D. Both A and B 
+Answer: D 
+
+6. using friend operator function, folowing perfect set of operators may not be overloaded?
+A. =,(),[],->
+B. <<,==,[],>>
+C. ?,=,(),++
+D. None
+Answer: A 
+
+7. Which of the following is correct about the statements given below?
+ I. All operators can be overloaded in C++
+ II.We can change the precedence rules of an operator in C++
+A. Only I is true
+B. Both I II are false
+C. Only II is true
+D. Both I II are true
+Answer: 
+
+8. In multipath inheritence, in order to remove duplicate set of records in child class 
+we,
+A. Write virtual function in parent classes
+B. Write virtual function in base class 
+C. Make base class as virtual base class
+D. All of the above
+Answer: 
+
+9. Which one of the following is the correct way to declare a pure virtual function? 
+A. virtual void Display(void){0};
+B. virtual void Display = 0;
+C. virtual void Display(void) = 0;
+D. void Display(void) = 0;
+Answer: 
+
+10. Which of the following is false for cout? 
+A. It represents std output
+B. It is an obj of ostream class
+C. It is class of which stream is an object
+D. Uisng cout the data can be written to the user's terminal
+Answer: 
+
+11. In which case is it mandatory to provide a destructor in a class?
+A. Almost in every class
+B. Class for which two or more than two objects will be created 
+C. Class for which copy constructor is defined 
+D. Class whose objects will be created dynamically
+Answer: 
+
+12. Which one of the following is true about the friend function?
+A. It is a non-member function which has priviledge to access private members of a class
+B. It is public member function of a class. 
+C. It is private member function of a class
+D. It is a member function which has privilege to access private member of a class.
+Answer: 
+
+13.Which one of the following properties is true for a non-static member function? 
+A. It has access to static as well as non-static the members of its class
+B. It has access to only other static members of its class.
+C. It can be called with only class name, not with objects.
+D. It can access only non-static members of its class.
+Answer: 
+
+14. paying attentio to the important properties while ignoring inessential details is known as_______.
+A. Selectiveness
+B. Polymorphism
+C. Abstraction
+D. Summarizing
+Answer: 
+
+15. Which of the below statement is correct regarding a member function of a class
+Which is a const member function ?
+A. No local variables can be created inside this function 
+B. The function cannot modify the state of the data members through which it is called
+C. The function can access only static data modify
+D. The fucntion can call non-constant member functions of the class
+Answer: 
+
+16. What is deep copy?
+A. Deep copy  creates a copy of the dynamically aloocated objects
+B. A deep copy just copies the vaues of the data as they are
+C. A deep copy creates a copy of statically allocated objects
+D. Both b and c above.
+Answer: 
+
+17. Consider the following program segment.
+ int b = 20;
+ void main()
+ {
+	int b= 10;
+	cout << ::b << b;
+ }
+ The output of this program is
+A. Syntax error
+B. 10 20 
+C. 20 10 
+D. 20 20
+Answer:
+
+18. What does the following declaration mean?
+int *ptr[20];?
+A. ptr is an array of 20 integer pointers
+B. ptr is a pointer to an array of 20 integers
+C. ptr is an array of 20 integers
+D.  ptr is a pointer to an array
+Answer:
+
+19. Which of the following crrectly applies to c++ struct?
+A. Programmer can implement inheritence through C++
+B. C++ struct defaults to private access specifier 
+C. C++ struct has no member functions
+D. Both A and C
+Answer:
+
+20. Which one of the following is not a feature of C++?
+A. Abstraction
+B. Encapsulation
+C. Garbage Collection
+D. Polymorphism
+Answer:
+
+21. The inorder traversal of tre  will yield a sorted listing of elements of tree in
+A. Binary trees 
+B. Binary search trees 
+C. Heaps
+D. None
+Answer:
+
+22. Consider that N elements are to be sorted what is the worst case time complexity of bubble sort? 
+A. O(1)
+B. O(log 2N)
+C. O(N)
+D. O(N2)
+Answer:
+
+23. In a Max-heap, elements with the greatest key is always in the________
+A. leaf
+B. root
+C. first node of left sub tree
+D. first node of right sub tree
+Answer:
+
+24. The two measures of efficiency of an algorithm are
+A. Processor and Memory
+B. Complexity and capacity
+C. Time and space
+D. Data and space
+Answer:
+
+25. Depth First Search graph traversal method makes use of_____
+A. Stack
+B. Queue
+C. Linked List
+D. Tree
+Answer:
+
+26. Complexity of merge sort algorithm is 
+A. O(N)
+B. O(log N)
+C. O(n2)
+D.O(N log N)
+Answer:
+
+27. In case of Binary Tree which of the following traversal method gives sorted output
+A. Preorder	
+B. Postorder
+C. Inorder
+D. None
+Answer:
+
+28. In a sorted singly linked list with N nodes, the time taken to insert an element at appropriate place is
+A. O(1) 
+B. O(log N)
+C. O(N)
+D. O(N log N)
+Answer:
+
+29. The nimber of swapping needed to sort the numbers 8, 22, 7, 9, 31, 5, 13 ascending order, using bubble sort is
+A. 11
+B. 12
+C. 13
+D. 14
+Answer:
+
+30. Which of the following sorting algorithms does not have a worst case time complexity of O(N2)
+A. Insertion sort
+B. Merge sort 
+C. Quick sort
+D. Bubble sort
+Answer:
+
+31. A data structure where elements can be added or removed at either end but not in the middle
+A. Linked lists
+B. Stacks
+C. Queues
+D. Deque(Double ended queue)
+Answer:
+
+32. Which of the following are true about divide and conquer algorithms
+A. Divide and conquer algorithm design paradigm is based on multi-branched
+B. A divides and conquer algorithm works by recursively breaking down a problem
+C. Quick sort and merge sort use divide and conquer
+D.All of the above
+Answer:
+
+33. In polynomial manipulation,  nodes consists of three field representing
+A. Coeffient, exponential and link
+B. Previous item link, data item. next item link
+C. Coefficient, data item and link
+D. None 
+Answer:
+
+34. If you began with an entry AVL tree, and then inserted the following keys into the tree in the follwoing order:
+20, 40, 15, 25, 30, 80, 75, 95, 35, 90
+Which key would be in the root of the tree after inserting all the keys?
+A. 75
+B. 40
+C. 35
+D. 30
+Answer:
+
+35. How many singly linked lists are used to represent a graph with n nodes and edges, when using an edge list representation?
+A. m 
+B. n 
+C. m + n
+D. m * n
+Answer:
+
+36. The time complexity of a right skewed binary search tree with n elements is :
+A. O(n)
+B. Equal to the time complexity in searching an element linearly in a list of n elements
+C. Worst case complexity for a binary search tree
+D. All of the above
+Answer:
+
+37. Suppose you have directed graph representing all the fights that an airline lies, what algorithm might be used to find the best sequence of connection from one city to another?
+A. Breadth first search
+B. Depth first search
+C. A cycle- finding algorithm
+D. A shortest-path algorithm
+Answer:
+
+38. The searching technique that takes O(1) time to find a data is 
+A. Linear Search 
+B. Binary Search
+C. Hashing
+D. Tree Search
+Answer:
+
+39. A mathematical-model with a collection of operations defined on that model is called
+A. Data structure 
+B. Abstract Data type
+C. Primitive Data Type
+D. Algorithm
+Answer:
+
+40. A full binary treee with n non-leaf nodes contains
+A. log N nodes
+B. N + 1 nodes 
+C. 2N - 1 nodes
+D. 2N + 1 nodes
+Answer:
+--------------------------OS
+
+1. The command is >xy  
+A. Displays an error message
+B. It follows by cat xy it will lists xy also 
+C. Redirects errors if any to xy
+D. none
+Answer:
+
+2. Which of the following arguments to teh open system call, will be discovered ? if the named file already exists?
+A. O_TRUNC
+B. O_APPEND
+C. O_EXCL
+D. O_CREAT
+Answer:
+
+3. Setting the execute bit has no meaning, if the file is a 
+A. directory
+B. shell script
+C. source code
+D. symbol table
+Answer:
+
+4. Which of the following sections of an executable binary file has all uninitialised data items?
+A. BSS
+B. Data
+C. Header
+D. Symbol table
+Answer:
+
+5. Inwhich section of a process, the information about the  argumentsts to the program is available?
+A. Data
+B. Text
+C. Stack
+D. User-block
+Answer:
+
+6. Which of teh follwoing system calls loads an executable binary file into a process address space?
+A. fork
+B. exec 
+C. ioctl
+D. longimp
+Answer:
+
+7. PID is used by the system to identify
+A. process 
+B. the file name
+C. the i-node
+D. all of the above
+Answer:
+
+8. Choose the best answer.
+Suspended processes are written onto
+A. swap area 
+B. dedicated area
+C. ROM
+D. critical area
+Answer:
+
+9. Which of teh following system calls, does not return control to the calling point on termination?
+A. fork 
+B. exec 
+C. wait
+D. longimp
+Answer:
+
+10. Which is not true about system calls?
+A. System calls are services provided by the operating system.
+B. Number of system calls depends on the Operating System
+C. System calls are portable across different Operating System.
+D. System calls may include hardware related services.
+Answer:
+
+11. __________ guarantees that the child process runs first and parent starts execution after the child calls exec or exit function
+A. fork
+B. vfork
+C. clone
+D. All of the above
+Answer:
+
+12. An attempt to read from a locked file results in
+A. prematured termination 
+B. a deadlock
+C. an wait until its released
+D. none
+Answer:
+
+13. The parent thread need not call pthread_join(), if the child thread is in ___ state
+A. Joinable
+B. Detached
+C. Shared
+D. None
+Answer:
+
+14. Choose the correct statements.
+A. If 2 users execute a file 2 copies will be there in memory
+B. Shareable programs are loaded into swap area
+C. fork loads new program in address apace 
+D. None
+Answer:
+
+15. Go through the follwoing C program
+main(){
+	int i, n;
+	for(i =0 ; i <= n; ++i) fork();
+		print("yes");
+}
+For what value of n, will yes be printed 24 times?
+A. 3 
+B. 4
+C. 5
+D. Impossible to find such an n
+Answer:
+
+16. Consider the follwoing program
+main(){
+printf("DAC students are skillful\n");
+system("date");
+printf("The giver, not the gift");
+}
+If a.out is the executable file corresponding to the above program. then the command ./a.out > x; cat x 
+A. Displays both the message with the output of data coming in between  
+B. Displays the output of date before both the messages
+C. Does not display the first message
+D. none
+Answer:
+
+17. The following program
+main(){
+	Iif(fork() > 0) sleep(100);
+}
+
+Results in the creation of
+A. An orphan process 
+B. A zombie process
+C. A rocess that executes for year
+D. None
+Answer:
+
+18.In unix, the status of a process may be
+A. running 
+B. orphan 
+C. waiting 
+D. zombie
+Answer:
+
+19. In _____ state of a process, the process will be teminated and the information will still be available in the process table.
+A. Interruptible
+B. UnInterruptible
+C. Zombie
+D. Running
+Answer:
+
+20. External synchronization is required for
+A. Shared memory
+B. Message queues
+C. Pipes
+D. None
+Answer:
+
+21. To prevent the memory fragmentation from frequent allocation and deaalocation of memoruy for data structures, which of the followinging is used?
+A. Paging
+B. Segmentation
+C. Slab cache
+D. Buddy allocator
+Answer:
+
+22. Which of the following are shared between a prent process and a child process?
+A. External variables 
+B. Pointer variables 
+C. File pointers 
+D. Pipes 
+Answer:
+
+23. Which of the following statements is true about shared memory?
+A. Shared Memory have in-built synchronization 
+B. Shared Memory are efficient for variable size data transfer.
+C. Shared Memory are faster as compared to Message Queues
+D. Shared Memory is maintained in the kernel address space
+Answer:
+
+24. Barriers  are efficient in which of the following situation____
+A. Synchronization between threads to avoid data corruption
+B. Synchronization between threads to start execution after each of the associated threads reach a specific statement in their code sections
+C. Signaling of occurence of event
+D. Mechanism for handling asynchronous events in threads.
+Answer:
+
+25. Kernel is in _____ when a System call is invoked 
+A. kernel Context
+B. Process COntext
+C. Interrupt COntext
+D. Current COntext
+Answer:
+
+26. Which of the below is true about futex __________
+A. futexes can be locked recursively
+B. futexes push the process into deadlock if locked recursively.
+C. futexes have error mechanism for intimately the developer if locked recursively
+D. All of the above.
+Answer:
+
+27. Semaphore is used for  
+A. Deadlock detection
+B. Deadlock avoidance
+C. Synchronization
+D. Page Replacement
+Answer:
+
+28. If dirty bit is set for a page, then it indicates that it is 
+A. read only 
+B. writeable
+C. modified
+D. None
+Answer:
+
+29. To avoid the race condition, the number of processes that  may be simultaneously inside their critical section is 
+A. 8 
+B. 1 
+C. 6
+D. 0 
+Answer:
+
+30. A system program that combines the separately compiled  modules of a program into a form suitable for execution
+A. assembler
+B. linker loader
+C. cross compiler
+D. load and go.
+Answer:
+
+31. The call pipe (p); is valid if p had been declared as
+A. int p 
+B. int p[2]
+C. char *p 
+D. FILE *p
+Answer:
+
+32. Interprocses communication
+A.  Is required for all processes 
+B.  Is usually done via disk drives 
+C. Is never necessary,
+D. allows processes to synchronize activity 
+Answer:
+
+33. A system program that sets up an executable program in main memory read for execution is 
+A. assembler 
+B. linker 
+C. loader  
+D. compiler
+Answer:
+
+34. The FIFO algorithm
+A. executes first the job that last entered the queue
+B. executes first the job that first entered the queue
+C. executes first the job that has been in the queue the longest
+D. executes first the job with the least processor needs 
+Answer:
+
+35. Memory management is:
+A. not used in modern operating system
+B. replaced with virtual memeory on current systems
+C. not used on multiprogramming systems
+D. critical for even the simplest operating systems.
+Answer:
+
+36. Operating systems is
+A. A collection of hardware components  
+B. A collection of input-output devices
+C. A collection of software routines
+D. All of the above
+Answer:
+
+37. A task in a blocked state
+A. is executable 
+B. is running
+C. must still be placed in the queues
+D. is waiting for same temporaRILY unavailable resources
+Answer:
+
+38. A critical region is 
+A. a program segment that has not been proved bug-free
+B. a program segment that often causes unexpected system crashes
+C. one which is enclosed with exclusive execution 
+D. none
+Answer:
+
+39. Scheduling is
+A. allowing jobs to use the processor 
+B. unrelated to performance consideration
+C. not required in uniprocessor systems
+D. the same regard-less of the purpose of the system.
+Answer:
+
+40. Round-Robin scheduling
+A. allows interactive tasks quiker access to the processor
+B. is quite complex to implement
+C. gives each task the same quantum period at the processor
+D. allows processor-bound tasks more time in the processor.
+Answer:
+---------------------------------Advance Web----------------
+
+1. What java wrappper type is created when a javascript object is sent to Java?
+A. ScriptObject
+B. JavaObject
+C. Jobject
+D. JSObject
+Answer:
+
+2. Which attribute needs to be changed to make elements invisible?
+A. visibility
+B. visible
+C. invisibility
+D. invisible
+Answer:
+
+3. What is the alternate name for Java script?
+A. LimeScript
+B. ECMAScript
+C. ECMScript
+D. Both A and B
+Answer:
+
+4. ______ JavaScript is also called client-side JavaScript.
+A. Microsoft
+B. Navigator
+C. LiveWire
+D. Native 
+Answer:
+
+5. Which of the following is not a valid Javascript variable name?
+A. 2java
+B. _java_and_java_names
+C. javaandjava
+D. None
+Answer:
+
+6. Which is the correct way to write a JavaScript array?
+A. var txt = new Array(1."arr", 2."kim", 3."jim")
+B. var txt = new Array:1=("arr")2=("kim")3=("jim")
+C. var txt = new Array("arr", "kim", "jim")
+D. var txt = new Array="arr", "kim", "jim"
+Answer:
+
+7. What is neagtive infinity in Java Script?
+A. Any of below
+B. Number in JavaScript, derived by dividing number by a negative number.
+C. Number in JavaScript, derived by dividing number by zero.
+D. Number in JavaScript, derived by dividing negative number by zero.
+Answer:
+
+8. Which of the ways below is incorrect of instantiating a date?
+A. new Date(dateString)
+B. new Date()
+C. new date(seconds)
+D. new Date(year, month, day, hours, minutes, seconds, milliseconds)
+Answer:
+
+9. Which of the below is used in Java script to insert special characters?
+A. &
+B. \
+C. -
+D. %
+Answer:
+
+10. Which of the following statements are false for java script?
+A. Variable names are not case sensitive
+B. Variable names must begin with a letter or the underscore character
+C. var is used to declare a variable
+D. Both B and C above
+Answer:
+
+11. What is the difference between XML and HTML?
+A. HTML is used for exchanging data, XML is not
+B. XML is used for exchanging data, HTMl is not.
+C. Html can have user defined tags, XML cannot 
+D. Both B and C 
+Answer:
+
+12. Which tags are most commonly used by search engines?
+A. Heading
+B. Title
+C. paragraph
+D. All of the above
+Answer:
+
+13. What is the <br> tag for?
+A. Space
+B.  Paragraph break 
+C. Line break 
+D. Word break 
+Answer:
+
+14. What is the attribute for <image> tag?
+A. pt 
+B. url
+C. path
+D. src
+Answer : src
+
+15. Which of the following tags below are used for a multi-line text input control?
+A. textml tag
+B. text tag 
+C. textarea tag
+D. both B and c above
+Answer:
+
+16. Which of the follwoing attributes below are used for a font name?
+A. fontname
+B. fn
+C. font 
+D. face
+Answer:
+
+17. What is cell padding?
+A. Used to separate cell walls from their contents
+B. Used to set space between cells 
+C. Both A and B above
+D. Used to provide width to a cell
+Answer:
+
+18. What attribute is used to specify number of rows?
+A. Rownum
+B. Rownumb
+C. rn
+D. Rowspan
+Answer:
+
+19. What are Meta tags used for?
+A. To store information usually relevant to browsers and search engines
+B. To only store information usually relevant to browsers 
+C. To only store informatin about search engines
+D. To store information about external links
+Answer:
+
+20. For frames in HTML, how do you specify the rest of the screen?
+A. Using &
+B. Using $
+C. Using *
+D. Using #
+Answer:
+
+21. How to append a value to an array of java script?
+A. arr[arr.length] = value
+B. arr[arr.length+1] = new Arrays()
+C. arr[arr.length-1] = value
+D. arr[arr.length*1] = value
+Answer:
+
+22. Which machine actually executes the Java Script?
+A. The web server
+B. The machine which is running a web browser
+C. Java Script engine
+D. Both A and C
+Answer:
+
+23. What is the correct syntax of the declararation which defines the XML version?
+A. <xml version="1.0"/>
+B. <?xml version="1.0"?>
+C. <?xml version="1.0"/>
+D. None
+Answer:
+
+24. Which of the following programs support XML or XML application?
+A. Internet Explorer 5.5
+B.  Netscape 4.7
+C. RealPlayer
+D. Both A and B
+Answer:
+
+25. Kind of Parsers are
+A. well-formed
+B. well-documented
+C. non-validating and validating
+D. none
+Answer:
+
+26. Well-formed XML document means
+A. It contains a root element
+B. It contains an element
+C. It contains oneor more elements
+D. must contain one or more elements and root element must contain other elements
+Answer:
+
+27. Comment in XML document is given by
+A. <?-- -->
+B. <!-- --!>
+C. <!-- -->
+D. </-- -->
+Answer:
+
+28. Which of the following strings are a correct XML name?
+A. _myElement
+B. my Element
+C. #myElelment
+D. None
+Answer:
+
+29. Which of the following strings are a correct XML name?
+A. _xmlElement
+B. xslNewElement
+C. XMLElelment#123
+D. All
+Answer:
+
+30. Which of the following XML fragments are well-formed?
+A . <?xml?>
+B. <?xml version="1.0"?>
+C. <?xml encoding="JIS"?>
+D. <?xml encoding="JIS" version="1.0"?>
+Answer:
+
+31. What are the predwefined attributes
+A. xml:lang
+B. xml:space
+C. Both
+D. None
+Answer:
+
+32. XML uses the features of
+A. HTML
+B. XHTML
+C. VML
+D. SGML
+Answer:
+
+33. Which of the below symbols is a newline character
+A. \r
+B. \n
+C. /n
+D. /r
+Answer:
+
+34. Which will be the output of the following code?
+	<?php
+	$foo="Bob";
+	$@bar=&$foo;
+	$bar="My name is $bar";
+	echo $bar;
+	echo $foo;
+	?>
+A. Error  
+B. My name is BobBob
+C. My name is BobMy name is Bob
+D.  My name is Bob Bob
+Answer:
+
+35. Which function will return true if variable is an array or false if it is not?
+A. this_array()
+B. is_array()
+C. do_array()
+D. in_array()
+Answer:
+
+36. What will be the output of the following PHP code?
+	<?php
+	$fruits= array("apple","orange","banana");
+	echo (next($fruits));
+	echo (next($fruits));
+	?>
+A. orangebanana
+B. appleorange
+C. orangeorange
+D. appleapple
+Answer:
+
+37. Javascript entitles start with ___________ and end with
+A. Semicolon, colon
+B. Semicolon, Ampersand
+C. Ampersand, colon
+D. Ampersand, semicolon
+Answer:
+
+38. Which of the following is a server-side Java Script object
+A. Function
+B. File
+C. FileUpload
+D. Date
+Answer:
+
+39. What is the events that fires when the form elements:  <button><textarea> loses the focus?
+A. Onclick
+B. Ondblclick
+C. Onfocus
+D. Onblur
+Answer:
+
+40. Which of the following variables can be assigned a value to it?
+i)$3hello
+ii)$_hello
+iii)$this
+iv)$This
+A.  All of the mentioned
+B. Only ii)
+C. ii), iii) and iv)
+D. ii) and iv)
+Answer:
+
+------------Database Technologies--------------------------
+

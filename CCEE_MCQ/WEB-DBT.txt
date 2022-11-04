@@ -1,0 +1,249 @@
+Q. The use of a DTD in XML development is
+a. required when validating XML document
+b. no longer necessary after the XML editor has been customized
+c. used to direct conversion using an XSLT processor
+d. a good guide to populating a templates to be filled in when generating an XML document automatically
+Answer: 
+
+Q. Which node type can be selected in XPath with * ?
+a. Comment node
+b. Attributes
+c. Root node
+d. Text node
+Answer: 
+
+Q. PCDATA stands for
+a. Parsed Character Data 
+b. Pure Character Data
+c. Predefined Character Data
+d. Parse Character Data
+Answer: 
+
+Q. Which provide extra information about XML elements
+a. Attributes
+b. Entities
+c. None of these
+d. Tags
+Answer: 
+
+Q. Attributes standalone="no" should be included in XML declare if a document is
+a. is linked to an external XSL stylesheet
+b. has external general references
+c. has processing instructions
+d. has an external DTD
+Answer: 
+
+Q. Which term among the following used about the text data that will be parsed by the XML parser
+a. PCDATA
+b. CDDATA
+c. DATA
+d. TEXT
+Answer: 
+
+Q. Which of the following is used to specify the attribute list of an element
+a. ATTLIST
+b. ?ATTLIST
+c. !ATTLIST
+d. #ATTLIST
+Answer: 
+
+Q. Which of the following instruct the browser which stylesheet to use
+a. <xml-stylesheet type="text/xsl" href="cd.xsl">
+b. <xml-stylesheet type="text/xsl" xsl="cd.xsl">
+c. <?xml-stylesheet type="text/xsl" href="cd.xsl"?>
+d. <?xml-stylesheet type="text/xsl" xsl="cd.xsl">
+Answer: 
+
+Q. Which is the input need to be given to perform SQL injection attack on below SQL query to drop table users
+a. userInput="1: DROP TABLE users;--"
+b. userInput="1: DROP users TABLE;--"
+c. userInput="1: DROP TABLE users--;"
+d. userInput="1: DROP TABLE; users;--"
+Answer: 
+
+Q. Which of the following languages are the primary targets of cross-site scripting
+a. JQUERY
+b. SQL
+c. XSLT
+d. JavaScript
+Answer: 
+
+Q. The term XSS refers to _______
+a. eXtended site Scripting
+b. eXtreme Secured Services
+c. Cross Site Scripting
+d. None of these
+Answer: 
+
+Q. _______ is time based SQL injection attack
+a. Quick detection 
+b. Initial Exploitation
+c. Blind SQL Injection
+d. Inline Comments
+Answer: 
+
+Q. Which attack invloves tricking the user into inadvertently issung an HTTP request to a wesite without their knowledge, usually with malicious intent
+a. Application-Layer Attack
+b. Cross Site Scripting (XSS)
+c. Denial-of-Service Attack (DOS)
+d. Cross Site Request Forgery (CSRF)
+Answer: 
+
+Q. Which of the following script is example of SQL Injection
+a. var Shipcity;
+   Shipcity = Request.form("Shipcity")
+   var sql = "select * from OrderTable where Shipcity = " + Shipcity + "";
+
+   b. var Shipcity;
+   Shipcity = Request.form("Shipcity")
+   
+c. var Shipcity;
+   var sql = "select * from OrderTable where Shipcity = " + Shipcity + "";
+
+d. None of these
+Answer: 
+
+Q. Which type of testing ensures that a system can gracefully handle invalid input or unexpected user behaviour
+a. Positive testing
+b. Negative testing 
+c. SQL injection
+d. Vulnerability testing
+Answer: 
+
+Q. Which of the following is not correct about AJAX
+a. AJAX cna make asynchronous calls
+b. AJAX works only with java based server side technologies
+c. AJAX can make synchronous calls
+d. AJAX can load part of the page
+Answer: 
+
+Q. What does the XMLHttRequest object accomplish in AJAX
+a. Its the programming languages used to develop AJAX applications
+b. It provides a means of exchanging structured data between the web server and client
+c. It provides the ability to asynchronously exchange data between web browser and a web server
+d. It provides the ability to mark up and style the display of web-page text
+Answer: 
+
+Q. Any functional dependency implies that
+a. For every determinant value that gets repeated for a relation the consequent value should also get repeated
+b. For every consequent value that gets repeated for a relation the determinant value should also get repeated
+c. The determinant values and the consequent values are independent of each other
+d. The determinant value should be unique in any relation
+Answer: 
+
+Q. Consider the following statements
+	i  Insert Anomaly occurs when certain attribute cannot be inserted into the database without the presence of other attribute
+	ii Duplication is desirable and is also necessary sometimes in database
+  WHICH OF THE FOLLOWING OPTION IS CORRECT
+a. Only i
+b. Only ii
+c. Both i & ii
+d. Both are false
+Answer: 
+
+Q. Which of the following database management system feature doesnt ensure data security
+a. View
+b. Encryption
+c. Trigger
+d. Grant
+Answer: 
+
+Q. Consider the relation R(A,B,C,D) and FDs(A->B, B->C, C->D). Consider the decomposition of R into R1(A,B,C) and R2(B,C,D).
+WHICH OF THE FOLLOWING OPTION IS CORRECT
+a. decomposition is loosy
+b. decomposition is lossless
+c. it can be both
+d. None
+Answer: 
+
+Q. Which of the following statements about foreign keys is CORRECT
+a. The foreign key field cannot take duplicate value
+b. The foreign key field domain is the primary key values of the referenced relation alone
+c. The foreign key field domain is the primary key values of the referenced relation and null
+d. The foreign key field domain is the primary key values of one or more referenced relations
+Answer: 
+
+Q. The relation scheme Student Perfomance (name, courseNo, rollNo, grade) has the following functional dependencies
+	name, courseNo -> grade
+	rollNo, courseNo -> grade
+	name -> rollNo
+	rollNo -> name
+  The highest normal form of this relation scheme is 
+a. 2NF
+b. 3NF
+c. BCNF
+d. 4NF
+Answer: 
+
+Q. Which of the following is true in terms of union operators
+a. The participating relation r, s can have different number of attributes for union operator to be valid
+b. The UNION operator return only distinct rows that appear in either relation
+c. UNION operator return all rows including the duplicate selected rows
+d. All are true
+Answer: 
+
+Q. All aggregate function expect _______ ignore null values in thier input collection
+a. Count(attribute)
+b. Count(*)
+c. Avg
+d. Sum
+Answer: 
+
+Q. Match the following
+a. There is one --- key in the relation		1. Alternate Key
+b. There can be more than one --- key		2. Foreign Key
+c. Minimal superkey for that relation		3.Primary Key
+d. It can take NULL values					4.Candidate Key
+ 
+A. a-1,b-3,c-2,d-4
+B. a-3,b-1,c-4,d-2 
+C. a-4,b-2,c-3,d-1 
+D. a-2,b-4,c-1,d-3 
+Answer: 
+
+Q. Consider the following query
+SELECT student, marks from table where marks > SELECT AVG(marks) from table
+  What function will be performed by the above query
+A. Find student, and marks from table
+B. Query will show error
+C. Find all the student, whose marks are greater than average marks
+D. Average marks of the student
+Answer: 
+
+Q. Which of the following command is correct to select all the records from table name "Person" where the value of the column "FirstName" start with an "a"?
+a. SELECT * FROM Persons WHERE FirstName LIKE '%a'
+b. SELECT * FROM Persons WHERE FirstName='%a'
+c. SELECT * FROM Persons WHERE FirstName='a'
+d. SELECT * FROM Persons WHERE FirstName LIKE 'a%'
+Answer: 
+
+Q. Which of the following SQL statements deletes all the rows in table called Sales
+a. DELETE Sales
+b. DELETE FROM Sales
+c. DELETE * FROM Sales
+d. DELETE ALL Sales
+Answer: 
+
+Q. What will be the output of the following query
+ select distinct sal from emp e1 where 3 = (select count(distinct sal) from emp e2 where e1.sal <= e2.sal)
+a. Find the 3rd MIN salary in the emp table 
+b. Find the 3rd MAX salary in the emp table
+c. Missing FROM-clause entry for table
+d. Syntax error at end of input
+Answer: 
+
+Q. What will be the output of the following query
+ delete from emp a where rowid != (select max(rowid) from emp b where a.empno=b.empno)
+a. column "rowid" does not exist
+b. delete duplicate rows in a table
+c. syntax error at end of input
+d. delete the last record from emp table
+Answer: 
+
+Q. What function is being perfomed by the following query
+	(select * from emp) Intersect (select * from emp1)
+a. fetch only common records from two tables
+b. fetch all the records but common records only once
+c. fetch the records present in first table which is not there in the second table
+d. fetch all the records including the duplicate records
+Answer: 
